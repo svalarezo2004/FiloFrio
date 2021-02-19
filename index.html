@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FiloFrio - Servicio de Mantenimiento</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/logo-empresa.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <img src="assets/logo-empresa.png" alt="" />
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#acerca">Acerca</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#detalles">Detalles</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </section>
+    </header>
+
+    <section id="inicio" class="home">
+      <article class="hero-image">
+        <aside class="hero-image-opacity">
+          <div class="hero-image-content">
+            <h2 class="hero-image-title">
+              Para tu bienestar y el de la sociedad
+            </h2>
+            <a href="#contacto" class="btn">CONTACTANOS</a>
+          </div>
+        </aside>
+      </article>
+    </section>
+
+    <section id="acerca" class="about container">
+      <h2 class="title">Sobre Nosotros</h2>
+      <div class="about-content">
+          <div class="about-text">
+            <p>
+              Nuestra empresa les ofrece el mejor servicio de mantenimiento y soporte de aires acondicionados, contamos con los mejores trabajadores que se encuentran capacitados para poder resolver los problemas que se presenten. Buscamos dar el mejor servicio de calidad por eso contamos con sus opiniones para seguir mejorandolo.
+            </p>
+          </div>
+          <img src="assets/hero-image-home-2.jpg" alt="" class="about-imagen" />
+        </>
+      </div>
+    </section>
+
+    <section id="servicios" class="service container">
+      <h2 class="title">Servicios</h2>
+      <div class="service-content">
+        <div class="card">
+          <h3>Mantenimiento de Aire Acondicionados tipo Splits</h3>
+          <img src="./assets/mantenimiento-aire-acondicionado.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="detalles" class="detail container">
+      <h2 class="title">Detalles</h2>
+      <div class="detail-cotent">
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <p>Seguro</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <p>Personalizado</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <p>Buena Atención</p>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-check-double"></i>
+          </div>
+          <p>Eficaz</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact container">
+      <h2 class="title">Contacto</h2>
+      <div class="contact-content" >
+        <form action="mailto:sebastianvalarezomariscal2004@gmail.com" method="post" enctype="text/plain">
+          <input type="text" placeholder="Correo">
+          <textarea name="" id="" cols="100%" rows="10" placeholder="Detalles"></textarea>
+          <input type="button" value="Enviar" class="button-form">
+        </form>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <small>Creado Por: Sebastian Valarezo - Derechos de Autor &copy; </small>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
